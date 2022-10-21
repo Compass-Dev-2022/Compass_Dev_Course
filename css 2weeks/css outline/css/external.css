@@ -1,0 +1,6 @@
+p {
+  display: inline-block;
+  border: 1px solid red;
+  outline: 20px dotted green;
+  margin: 20px;
+}

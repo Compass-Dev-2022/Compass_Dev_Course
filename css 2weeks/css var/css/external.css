@@ -1,0 +1,14 @@
+:root {
+  --red: red;
+  --yellow: yellow;
+}
+
+body {
+  color: var(--white, blue);
+  --green: green;
+}
+
+p {
+  border: 2px solid var(--yellow);
+  color: green;
+}

@@ -1,0 +1,27 @@
+/* .z-index1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  z-index: 1;
+}
+.z-index2 {
+  z-index: -2;
+} */
+
+/* .opacity {
+  width: 100px;
+  height: 100px;
+  background: red;
+  opacity: 0.5;
+} */
+
+.overflow {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+  overflow: auto;
+}

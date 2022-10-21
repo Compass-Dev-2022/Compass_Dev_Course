@@ -1,0 +1,44 @@
+.static {
+  position: static;
+  left: 50px;
+}
+
+.relative {
+  position: relative;
+  margin: 10px 0px;
+  border: 1px solid red;
+  left: 20%;
+}
+
+.fixed {
+  position: fixed;
+  top: 5%;
+  right: 0;
+  padding: 10px;
+  background: red;
+  color: white;
+}
+
+.d1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.d2_absolute {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+}
+
+.sticky {
+  position: sticky;
+  top: 4%;
+  background: blue;
+  color: white;
+  padding-bottom: 10px;
+}

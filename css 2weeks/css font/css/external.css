@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Font4";
+  src: url("/css font/font/Roboto/Roboto-Regular.ttf");
+}
+p {
+  font-family: "Font4";
+  font-size: 20px; //unit
+  font-style: normal;
+}

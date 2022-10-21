@@ -1,0 +1,6 @@
+section {
+  width: 100%;
+  height: 1000px;
+
+  background: url("../image/compass.png") no-repeat fixed right top;
+}

@@ -1,0 +1,13 @@
+section {
+  width: 20%;
+  border: 1px solid red;
+  margin: auto;
+}
+
+section > p {
+  /* margin:50px; */
+  /* margin: 50px 100px; //y top bottom  x left right */
+  /* margin: 50px 100px 90px; // top  left right bottom */
+  /* margin: 20px 30px 40px 50px; //top right left bottom */
+  margin: 0 20px 0 0;
+}

@@ -1,0 +1,15 @@
+a {
+  /* text-decoration: line-through; //overline line-through underline */
+  /* text-decoration-color: red; */
+  text-decoration: none;
+}
+
+p {
+  /* text-transform: capitalize; //lowercase uppercase capitalize */
+  /* text-indent: 30px; */
+
+  /* letter-spacing: 20px; */
+  /* word-spacing: 10px; */
+  /* line-height: 30px; */
+  white-space: nowrap;
+}

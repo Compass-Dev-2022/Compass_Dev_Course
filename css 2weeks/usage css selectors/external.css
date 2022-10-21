@@ -1,0 +1,15 @@
+p span {
+  color: red;
+}
+
+span > p {
+  color: blue;
+}
+
+/* div + p {
+  color: yellow;
+} */
+
+div ~ p {
+  color: yellow;
+}

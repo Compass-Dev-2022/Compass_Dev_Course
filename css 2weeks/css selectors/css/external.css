@@ -1,0 +1,14 @@
+p {
+  color: red;
+}
+
+#unique {
+  color: green;
+}
+.any {
+  color: yellow;
+}
+
+input[type="text"] {
+  border: 1px solid red;
+}
