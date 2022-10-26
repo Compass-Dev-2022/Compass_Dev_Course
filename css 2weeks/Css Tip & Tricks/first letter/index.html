@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS learner First Letter</title>
+    <style>
+      .section {
+        width: 10%;
+        margin: 0px auto;
+      }
+
+      .section p:first-of-type::first-letter {
+        color: #1a8fe3;
+        float: left;
+        font-size: 4rem;
+        line-height: 4vm;
+        padding-right: 8px;
+        width: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+        similique temporibus in dolor magnam consequuntur, rem deserunt id
+        aspernatur corrupti voluptas esse nisi doloremque voluptatibus quam,
+        unde architecto, at laudantium?
+      </p>
+    </div>
+  </body>
+</html>
