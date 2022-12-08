@@ -1,0 +1,66 @@
+:root {
+  --white: white;
+  --lightblue: lightblue;
+  --font: "Zen Dots", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font);
+}
+
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a:hover {
+  color: var(--white);
+}
+
+.full-button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--lightblue);
+  color: var(--white);
+}
+
+.outline-button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--lightblue);
+  border: 1px solid var(--lightblue);
+}
+.outline-button:hover {
+  background-color: var(--lightblue);
+  color: var(--white);
+}
+
+.wrapper-img div {
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  width: 8.3333333333%;
+}
+.wrapper-img div:nth-child(6n) {
+  margin-right: 0;
+}
+.wrapper-img div img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

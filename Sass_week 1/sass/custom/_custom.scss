@@ -1,0 +1,60 @@
+ul {
+  display: flex;
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      &:hover {
+        color: var(--white);
+      }
+    }
+  }
+}
+
+@mixin button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.full-button {
+  @include button;
+  background-color: var(--lightblue);
+  color: var(--white);
+}
+.outline-button {
+  @include button;
+  background-color: var(--white);
+  color: var(--lightblue);
+  border: 1px solid var(--lightblue);
+
+  &:hover {
+    background-color: var(--lightblue);
+    color: var(--white);
+  }
+}
+
+
+@mixin grid($cols,$mgn){
+    float: left;
+    margin-right: $mgn;
+    margin-bottom: $mgn;
+    width:((100% - (($cols - 1) * $mgn)) / $cols);
+    &:nth-child(#{$cols}n){
+        margin-right: 0;
+    }
+}
+
+.wrapper-img {
+    div{
+        @include grid(6, 10%);
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
