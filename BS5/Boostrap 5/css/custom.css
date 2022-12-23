@@ -1,0 +1,10 @@
+.btn-primary{
+    background-color:yellow;
+    color:black;
+    border-color:yellow;
+}
+.btn-primary:hover{
+    background-color:yellow;
+    color:black;
+    border-color:yellow;
+}
